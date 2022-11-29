@@ -14,7 +14,7 @@ export default function App() {
   return (
     <>
       <h1 className="mt-10 text-8xl font-bold text-center">Fizzbuzz</h1>
-      <div className="flex items-center justify-center my-10">
+      <div className="flex items-center justify-evenly my-10">
         <div className="w-30 inline-block text-8xl m-4 bg-teal-500 rounded-3xl p-6 text-white">
           step: {step}
         </div>
