@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./App.css";
 
 function fizzbuzz(n) {
   if (n % 15 === 0) return "fizzbuzz";
@@ -15,7 +14,7 @@ export default function App() {
     <>
       <h1 className="mt-10 text-8xl font-bold text-center">Fizzbuzz</h1>
       <div className="flex items-center justify-evenly my-10">
-        <div className="w-30 inline-block text-8xl m-4 bg-teal-500 rounded-3xl p-6 text-white">
+        <div className="w-30 inline-block text-8xl m-4 bg-teal-500 r    ounded-3xl p-6 text-white">
           step: {step}
         </div>
         <div className="w-30 inline-block font-semibold text-8xl m-4 text-purple-500 p-4 border-purple-500 rounded-3xl border-8">
